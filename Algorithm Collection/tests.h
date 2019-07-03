@@ -3,3 +3,4 @@
 #include "Algorithms.h"
 void Tests();
 void TestMaxBuy();
+void TestMiniCut();

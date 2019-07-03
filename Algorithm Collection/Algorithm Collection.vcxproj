@@ -154,12 +154,14 @@
     <ClCompile Include="Algorithm Collection.cpp" />
     <ClCompile Include="common.cpp" />
     <ClCompile Include="MaxBuy.cpp" />
+    <ClCompile Include="MiniCut.cpp" />
     <ClCompile Include="tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorithms.h" />
     <ClInclude Include="common.h" />
     <ClInclude Include="MaxBuy.h" />
+    <ClInclude Include="MiniCut.h" />
     <ClInclude Include="tests.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

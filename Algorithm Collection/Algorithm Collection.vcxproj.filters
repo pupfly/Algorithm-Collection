@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Dynamic Programming">
+      <UniqueIdentifier>{525bfaf9-80c4-4d54-ac59-5a086753b825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Dynamic Programming">
+      <UniqueIdentifier>{d432c45b-c361-415a-9665-d096bf7d604c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm Collection.cpp">
@@ -21,18 +27,18 @@
     <ClCompile Include="common.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="MaxBuy.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="tests.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxBuy.cpp">
+      <Filter>源文件\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniCut.cpp">
+      <Filter>源文件\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MaxBuy.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="tests.h">
@@ -40,6 +46,12 @@
     </ClInclude>
     <ClInclude Include="Algorithms.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxBuy.h">
+      <Filter>头文件\Dynamic Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniCut.h">
+      <Filter>头文件\Dynamic Programming</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
